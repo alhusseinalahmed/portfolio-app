@@ -10,7 +10,7 @@ export const portfolioData = {
 
   // About Section
   about:
-    "Passionate Software Developer with a strong foundation in both frontend and backend technologies. Currently pursuing a Bachelor's in Computer Science at Linnaeus University while building practical experience through projects in web development and game development. I enjoy creating efficient, user-friendly solutions and am particularly interested in full-stack development, game programming, and innovative web applications. Always eager to learn new technologies and tackle challenging problems.",
+    "Passionate Software Developer with a strong foundation in both frontend and backend technologies. Currently pursuing a Bachelor's in Computer Science at Linnaeus University while building practical experience through projects in web development, distributed systems, and game development. I enjoy creating efficient, user-friendly solutions and am particularly interested in full-stack development, game programming, and innovative web applications. Always eager to learn new technologies and tackle challenging problems.",
 
   // Education
   education: [
@@ -43,14 +43,74 @@ export const portfolioData = {
 
   // Skills (organized by category)
   skills: {
-    Frontend: ["React", "JavaScript", "HTML", "CSS", "TypeScript", "Svelte"],
-    Backend: ["Node.js", "Express", "Python", "MongoDB", "MySQL", "Java", "C#"],
+    Frontend: [
+      "React",
+      "JavaScript",
+      "HTML",
+      "CSS",
+      "TypeScript",
+      "Svelte",
+      "Monaco Editor",
+    ],
+    Backend: [
+      "Node.js",
+      "Express",
+      "Go (Golang)",
+      "Python",
+      "Java",
+      "C#",
+      "Redis",
+      "Socket.io",
+      "MongoDB",
+      "MySQL",
+    ],
     "Game Development": ["Unity", "C#", "Photon"],
-    "Tools & Technologies": ["Git", "VS Code", "Figma", "Unity Engine"],
+    "Tools & Technologies": ["Git", "Docker", "VS Code", "Figma", "Unity Engine"],
   },
 
   // Projects
   projects: [
+    {
+      title: "Distributed Collaborative IDE",
+      description:
+        "A real-time, distributed code editor allowing users to write and execute Python and C++ code simultaneously in isolated environments. Features a microservices architecture with a Node.js coordinator for WebSocket synchronization, a Go-based execution engine, Redis for state persistence, and Docker for secure sandboxing.",
+      technologies: [
+        "Go",
+        "Node.js",
+        "Redis",
+        "Docker",
+        "Socket.io",
+        "JavaScript",
+        "Monaco Editor",
+      ],
+      demoLink: "https://github.com/alhusseinalahmed/collaborative-ide",
+      codeLink: "https://github.com/alhusseinalahmed/collaborative-ide",
+      image: "images/ide_project.png", // Make sure to add a screenshot here!
+      category: "Distributed Systems",
+      status: "Completed",
+      featured: true,
+    },
+    {
+      title: "Cloud Notes App",
+      description:
+        "A secure, full-stack note-taking application featuring JWT authentication, real-time cloud synchronization with TiDB, and a responsive masonry layout. Built with a decoupled architecture using Spring Boot and React.",
+      technologies: [
+        "Java",
+        "Spring Boot",
+        "React.js",
+        "MySQL (TiDB)",
+        "Docker",
+        "JWT",
+        "Render",
+        "Vercel",
+      ],
+      demoLink: "https://notesapp-2025.vercel.app/login",
+      codeLink: "https://github.com/alhusseinalahmed/notesapp_2025",
+      category: "Full-Stack",
+      status: "Completed",
+      featured: true,
+      image: "images/notes_app.png",
+    },
     {
       title: "Multiplayer FPS Game with Unity",
       description:
@@ -62,7 +122,6 @@ export const portfolioData = {
       category: "Game Development",
       status: "Completed",
       featured: true,
-
     },
     {
       title: "Weather App using Flutter",
@@ -79,29 +138,8 @@ export const portfolioData = {
       codeLink: "https://github.com/aa227hr/weather_app",
       category: "Mobile Development",
       status: "Completed",
-      featured: true,
-      image: "images/weather.jpg",
-    },
-    {
-      title: "Cloud Notes App",
-      description:
-        "A secure, full-stack note-taking application featuring JWT authentication, real-time cloud synchronization with TiDB, and a responsive masonry layout. Built with a decoupled architecture using Spring Boot and React.",
-      technologies: [
-        "Java",
-        "Spring Boot",
-        "React.js",
-        "MySQL (TiDB)",
-        "Docker",
-        "JWT",
-        "Render",
-        "Vercel",
-      ],
-      demoLink: "https://notesapp-2025.vercel.app/login", // Replace with your actual Vercel link
-      codeLink: "https://github.com/alhusseinalahmed/notesapp_2025",
-      category: "Full-Stack",
-      status: "Completed",
-      featured: true,
-      image: "images/notes_app.jpg",
+      featured: false,
+      image: "images/weather_app.png",
     },
   ],
 };
