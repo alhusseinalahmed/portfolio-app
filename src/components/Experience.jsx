@@ -65,36 +65,6 @@ const Experience = () => {
               </div>
             </div>
           ))}
-
-          {/* Future Opportunities Card */}
-          <div className="opportunity-card">
-            <div className="opportunity-icon">🚀</div>
-            <div className="opportunity-content">
-              <h3>Looking for New Opportunities</h3>
-              <p>
-                I'm actively seeking internships and part-time positions where I
-                can contribute to meaningful projects while continuing to grow
-                as a developer.
-              </p>
-              <div className="opportunity-types">
-                <span>Software Development Intern</span>
-                <span>Web Developer</span>
-                <span>Game Programmer</span>
-                <span>Full-Stack Roles</span>
-              </div>
-              <button
-                className="cta-button"
-                onClick={() =>
-                  document
-                    .getElementById("contact")
-                    .scrollIntoView({ behavior: "smooth" })
-                }
-              >
-                Get In Touch
-              </button>
-            </div>
-          </div>
-        </div>
       </div>
     </section>
   );
