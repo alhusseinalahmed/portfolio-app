@@ -1,25 +1,32 @@
 export const portfolioData = {
   // Personal Information
   name: "Al Hussein Al Ahmed",
-  title: "Software Developer",
+  title: "Electrical Design Engineer & Software Developer",
   email: "alhusseinalahmed@gmail.com",
-  phone: "", // Consider adding a phone number if comfortable
+  phone: "076-427 05 73",
   location: "Växjö, Sweden",
   linkedin: "https://www.linkedin.com/in/alhusseinalahmed/",
   github: "https://github.com/alhusseinalahmed",
 
   // About Section
   about:
-    "Passionate Software Developer with a strong foundation in both frontend and backend technologies. Currently pursuing a Bachelor's in Computer Science at Linnaeus University while building practical experience through projects in web development, distributed systems, and game development. I enjoy creating efficient, user-friendly solutions and am particularly interested in full-stack development, game programming, and innovative web applications. Always eager to learn new technologies and tackle challenging problems.",
+    "Newly enrolled student in Electrical Engineering (Elkonstruktion) at TUC Vocational College, with a solid technical foundation from a Bachelor's degree in Computer Science at Linnaeus University. I have a deep interest in logic, system development, and software architecture. I am currently seeking an internship (LIA) where I can combine my programming experience with electrical design and industrial automation. Driven, analytical, and eager to bridge the gap between IT and electrical systems.",
 
   // Education
   education: [
+    {
+      degree: "Electrical Design Engineer (Elkonstruktör)",
+      institution: "TUC Yrkeshögskola",
+      year: "2026-2028",
+      details:
+        "Ongoing higher vocational education focusing on Electric Power, Electrical Installations, Electrical Design in CAD (AutoCAD/MagiCAD), Automation Technology, Contract Law, and Project Management.",
+    },
     {
       degree: "Bachelor of Science in Computer Science",
       institution: "Linnaeus University",
       year: "2023-2026",
       details:
-        "Ongoing degree focusing on software engineering principles, algorithms, and modern web technologies. Key coursework includes Data Structures, Algorithms, Web Development, Database Systems, and Software Engineering.",
+        "Completed degree focusing on software engineering principles, algorithms, and modern web technologies. Key coursework includes Object-oriented Programming, Software Design, Computer Security, Algorithms, Networks, and Databases.",
     },
     {
       degree: "Information and Media Technology Program",
@@ -37,84 +44,38 @@ export const portfolioData = {
       company: "Acino AB",
       period: "Summer 2023",
       description:
-        "Contributed to the development of a custom level editor for an indie game using Unity Engine. Gained experience in game development workflows, C# programming, and collaborative software development practices.",
+        "Contributed to the development of a custom level editor for an indie game using Unity Engine. Gained experience in game development workflows, C# programming, modular code architecture, and collaborative software development practices in an agile environment.",
     },
   ],
 
   // Skills (organized by category)
   skills: {
-    Frontend: [
-      "React",
-      "JavaScript",
-      "HTML",
-      "CSS",
-      "TypeScript",
-      "Svelte",
-      "Monaco Editor",
+    "Electrical Design & Automation": [
+      "AutoCAD",
+      "MagiCAD",
+      "PLC / Automation",
+      "Electric Power & Circuits",
+      "Electrical Installations"
     ],
-    Backend: [
-      "Node.js",
-      "Express",
-      "Go (Golang)",
-      "Python",
+    "Software & Systems": [
+      "C# / .NET",
       "Java",
-      "C#",
-      "Redis",
-      "Socket.io",
-      "MongoDB",
-      "MySQL",
+      "Python",
+      "C++",
+      "JavaScript",
+      "Network Programming",
+      "Databases (SQL)",
     ],
     "Game Development": ["Unity", "C#", "Photon"],
-    "Tools & Technologies": ["Git", "Docker", "VS Code", "Figma", "Unity Engine"],
+    "Tools & Technologies": ["Git", "Docker", "VS Code", "Unity Engine"],
   },
 
   // Projects
   projects: [
     {
-      title: "Distributed Collaborative IDE",
-      description:
-        "A real-time, distributed code editor allowing users to write and execute Python and C++ code simultaneously in isolated environments. Features a microservices architecture with a Node.js coordinator for WebSocket synchronization, a Go-based execution engine, Redis for state persistence, and Docker for secure sandboxing.",
-      technologies: [
-        "Go",
-        "Node.js",
-        "Redis",
-        "Docker",
-        "Socket.io",
-        "JavaScript",
-        "Monaco Editor",
-      ],
-      demoLink: "https://github.com/alhusseinalahmed/collaborative-ide",
-      codeLink: "https://github.com/alhusseinalahmed/collaborative-ide",
-      image: "images/ide_project.png", // Make sure to add a screenshot here!
-      category: "Distributed Systems",
-      status: "Completed",
-      featured: true,
-    },
-    {
-      title: "Cloud Notes App",
-      description:
-        "A secure, full-stack note-taking application featuring JWT authentication, real-time cloud synchronization with TiDB, and a responsive masonry layout. Built with a decoupled architecture using Spring Boot and React.",
-      technologies: [
-        "Java",
-        "Spring Boot",
-        "React.js",
-        "MySQL (TiDB)",
-        "Docker",
-        "JWT",
-        "Render",
-        "Vercel",
-      ],
-      demoLink: "https://notesapp-2025.vercel.app/login",
-      codeLink: "https://github.com/alhusseinalahmed/notesapp_2025",
-      category: "Full-Stack",
-      status: "Completed",
-      featured: true,
-      image: "images/notes_app.png",
-    },
-    {
       title: "Multiplayer FPS Game with Unity",
       description:
-        "A fully functional multiplayer first-person shooter game built with Unity and Photon networking. Features real-time multiplayer gameplay, character customization, and multiple game modes.",
+        "A fully functional multiplayer first-person shooter game created independently from scratch with Unity and Photon networking. Features real-time synchronization, C# scripting for game logic, custom matchmaking, character customization, and multiple game modes.",
       technologies: ["C#", "Unity", "Photon"],
       demoLink: "https://youtu.be/WXrrmhJMJf4",
       codeLink: "https://github.com/alhusseinalahmed/Rapid-Reload",
@@ -122,24 +83,6 @@ export const portfolioData = {
       category: "Game Development",
       status: "Completed",
       featured: true,
-    },
-    {
-      title: "Weather App using Flutter",
-      description:
-        "A Flutter-based weather application that fetches real-time weather data from an API and displays it in a user-friendly interface.",
-      technologies: [
-        "Flutter",
-        "Dart",
-        "API",
-        "OpenWeatherAPI",
-        "Android Studio",
-      ],
-      demoLink: "https://github.com/aa227hr/weather_app",
-      codeLink: "https://github.com/aa227hr/weather_app",
-      category: "Mobile Development",
-      status: "Completed",
-      featured: false,
-      image: "images/weather_app.png",
     },
   ],
 };
