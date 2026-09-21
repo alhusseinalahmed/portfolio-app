@@ -28,13 +28,13 @@ const About = () => {
 
               <div className="detail-item">
                 <h4>💼 Status</h4>
-                <p>Open to opportunities</p>
-                <p className="detail-meta">Part-time & Internships</p>
+                <p>Seeking LIA Internship</p>
+                <p className="detail-meta">Oct 2027 & Feb 2028</p>
               </div>
 
               <div className="detail-item">
                 <h4>🚀 Interests</h4>
-                <p>Full-Stack Development, Game Dev, AI</p>
+                <p>Electrical Design, Automation, System Architecture</p>
               </div>
             </div>
           </div>
