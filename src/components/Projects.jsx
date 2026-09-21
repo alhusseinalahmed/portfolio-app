@@ -7,10 +7,7 @@ const Projects = () => {
   // Project categories based on technologies
   const projectCategories = [
     "All",
-    "Web Development",
     "Game Development",
-    "Full-Stack",
-    "Mobile Development",
   ];
 
   // Enhanced project data with categories and images
