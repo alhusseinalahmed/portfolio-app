@@ -43,7 +43,7 @@ const Education = () => {
                 <p className="timeline-details">{edu.details}</p>
 
                 <div className="timeline-progress">
-                  {edu.year.includes("Present") || edu.year.includes("2026") ? (
+                  {edu.year.includes("Present") || edu.year.includes("2028") ? (
                     <div className="progress-container">
                       <span className="progress-label">In Progress</span>
                       <div className="progress-bar">
