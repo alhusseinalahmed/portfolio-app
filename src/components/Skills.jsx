@@ -9,26 +9,24 @@ const Skills = () => {
           The tools and technologies I use to bring ideas to life
         </p>
 
-        {/* Skills Overview */}
+{/* Skills Overview */}
         <div className="skills-overview">
           <div className="overview-card">
-            <div className="overview-icon">💻</div>
+            <div className="overview-icon">⚡</div>
             <div className="overview-content">
-              <h3>Full-Stack Capability</h3>
+              <h3>Electrical Design & Automation</h3>
               <p>
-                Have some experience working across the entire development
-                stack.
+                Studying CAD (AutoCAD/MagiCAD), PLC programming, and electric power systems for modern automation.
               </p>
             </div>
           </div>
 
           <div className="overview-card">
-            <div className="overview-icon">🎮</div>
+            <div className="overview-icon">💻</div>
             <div className="overview-content">
-              <h3>Game Development</h3>
+              <h3>Software Architecture</h3>
               <p>
-                Experience with Unity game engine and multiplayer networking for
-                interactive experiences.
+                Strong foundation in Object-Oriented Design, C#, Java, and network programming.
               </p>
             </div>
           </div>
@@ -36,15 +34,13 @@ const Skills = () => {
           <div className="overview-card">
             <div className="overview-icon">🚀</div>
             <div className="overview-content">
-              <h3>Quick Learner</h3>
+              <h3>Bridging IT and OT</h3>
               <p>
-                Proven ability to rapidly adapt to new technologies and
-                frameworks as project requirements evolve.
+                Passionate about merging software logic with industrial automation and smart grid technologies.
               </p>
             </div>
           </div>
         </div>
-
         {/* Technologies Cloud */}
         <div className="tech-cloud">
           <h3>Technologies I Work With</h3>
